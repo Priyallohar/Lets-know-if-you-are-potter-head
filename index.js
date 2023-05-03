@@ -17,10 +17,10 @@ console.log(chalk.yellow("-----------------------------"))
 function playGame(question, answer) {
   let userAnswer = readlineSync.question(question);
   if (userAnswer.toUpperCase() === answer.toUpperCase()) {
-    console.log("Yoo!! You got it right.");
+    console.log(chalk.green("Yoo!! You got it right."));
     Score++;
   } else {
-    console.log("Oops!! You got it wrong.");
+    console.log( chalk.red("Oops!! You got it wrong."));
   }
   console.log(chalk.greenBright("Your current score: ", Score));
   console.log(chalk.yellow("-----------------------------"))
@@ -34,8 +34,11 @@ for (let i = 0; i < potterQuestion.length; i++) {
   playGame(currentQuestions.question, currentQuestions.answer);
 }
 
+function displayScore(){
 console.log(chalk.magentaBright(`YAY! Your Total Score Is ${Score}. Well Done Potterhead`))
 
 console.log(chalk.yellow("-----------------------------"))
 
-console.log( chalk.red(`Others Score: ${otherScores.name} secure ${otherScores.points}`))
+console.log( chalk.red(`Others Score: ${otherScores.name} secure ${otherScores.points} Points`))}
+
+displayScore()
