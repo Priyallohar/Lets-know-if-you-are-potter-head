@@ -10,7 +10,7 @@ let otherScores = {
 ;
 let userName = readlineSync.question(chalk.cyanBright("What's your name? "));
 
-console.log(chalk.magentaBright("Welcome, " +userName+ ", to the Quiz of Potterhead!"));
+console.log(chalk.magentaBright("Welcome, " +userName+ "to the Quiz of Potterhead!"));
 console.log(chalk.yellow("-----------------------------"))
 
 
