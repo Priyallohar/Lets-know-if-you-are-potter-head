@@ -6,7 +6,7 @@ This quiz has 5 questions about harry potter.For every correct question you will
 
 ---
 
-photo
+![]()
 
 ---
 ### Tech Used: ###
