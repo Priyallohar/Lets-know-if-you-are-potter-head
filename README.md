@@ -6,7 +6,7 @@ This quiz has 5 questions about harry potter.For every correct question you will
 
 ---
 
-![]()
+![](https://github.com/Priyallohar/Lets-know-if-you-are-potter-head/blob/main/image/Capture.PNG)
 
 ---
 
